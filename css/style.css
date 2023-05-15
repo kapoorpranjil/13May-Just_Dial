@@ -33,6 +33,18 @@ footer{
 .p_footer4{
     height: 97px;
 }
+.p_menu > li:hover ul{
+    display: block;
+}
+ul > li a:hover{
+    background-color: #EDEDED;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.p_submenu{
+    width: 100px;
+    display: none;
+}
 @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
     max-width: 1449px;
