@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    height: 81px;
+    min-height: 81px;
     border: 1px dashed green;
     width: 94%;
     margin: auto;
@@ -44,6 +44,11 @@ ul > li a:hover{
 .p_submenu{
     width: 100px;
     display: none;
+}
+@media screen and (max-width: 576px){
+    .p_form_col{
+        height: 50px;
+    }
 }
 @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
