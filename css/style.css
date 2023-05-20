@@ -1,57 +1,132 @@
-body{
+body {
     background-color: #E8E8E8;
 }
-.p_tbdr{
+
+.p_tbdr {
     border: 1px dashed red;
 }
 
-header{
+header {
     min-height: 81px;
     border: 1px dashed green;
     width: 94%;
     margin: auto;
 }
-main{
+
+main {
     height: 3119px;
-    
-}
-.mt-5.p_mt-5{
-    margin-top: 5rem !important;
-}
-footer{
 
 }
-.p_footer1{
+
+.mt-5.p_mt-5 {
+    margin-top: 5rem !important;
+}
+
+footer {}
+
+.p_footer1 {
     height: 112px;
 }
-.p_footer2{
+
+.p_footer2 {
     height: 1291px;
 }
-.p_footer3{
+
+.p_footer3 {
     height: 300px;
 }
-.p_footer4{
+
+.p_footer4 {
     height: 97px;
 }
-.p_menu > li:hover ul{
+
+.p_menu>li:hover ul {
     display: block;
 }
-ul > li a:hover{
+
+ul>li a:hover {
     background-color: #EDEDED;
     cursor: pointer;
     border-radius: 5px;
 }
-.p_submenu{
+
+.p_submenu {
     width: 100px;
     display: none;
 }
-@media screen and (max-width: 576px){
-    .p_form_col{
+
+.p_tnr {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 25px;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 25px;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+
+/* Overriding styles */
+
+::-webkit-input-placeholder {
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #333 !important;
+    opacity: 0.5 !important;
+}
+
+@media screen and (max-width: 576px) {
+    .p_form_col {
         height: 50px;
     }
+
+    .p_mt-5 {
+      
+        padding-top: 40px;
+    }
 }
-@media (min-width: 1400px){
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
-    max-width: 1449px;
-}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1449px;
+    }
 }
